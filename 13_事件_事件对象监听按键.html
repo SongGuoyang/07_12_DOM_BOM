@@ -8,11 +8,16 @@
 </head>
 <body>
     <script>
-        document.onkeydown = function () {
-            alert('键盘被按下')
-        }
-        document.onkeypress = function() {
-            alert('键盘被松开')
+        document.onkeydown = function(e){
+            console.log(e);
+            console.log(e.key);
+            console.log(e.keyCode);
+            console.log(e.type);
+            if(e.key == 's'){
+                alert('按的是s')
+            }else{
+                alert('按的不是s')
+            }
         }
     </script>
 </body>
