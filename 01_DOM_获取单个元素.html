@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "d1">美国是在搬起石头砸自己的脚</div>
+
+    <script>
+        // 通过id获取div
+        var d = document.getElementById('d1')
+        console.log(d);
+        console.dir(d)
+
+        // 获取div标签里的文字内容
+        alert(d.innerHTML)
+
+        // 修改div标签里的内容
+        d.innerHTML = '美国去死'
+
+        // H5常用的获取元素的方法
+        var d1 = document.querySelector('#d1')
+        console.log(d1);
+    </script>
+</body>
+</html>

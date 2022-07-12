@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>美国是在搬起石头砸自己的脚1</li>
+        <li>美国是在搬起石头砸自己的脚2</li>
+        <li>美国是在搬起石头砸自己的脚3</li>
+        <li>美国是在搬起石头砸自己的脚4</li>
+    </ul>
+
+    <script>
+        var lis = document.querySelectorAll('li')
+        console.log(lis);
+        console.log(lis[2]);
+        for (let index = 0; index < lis.length; index++) {
+            console.log(lis[index]);
+            alert(lis[index].innerHTML)
+            
+        }
+    </script>
+</body>
+</html>
