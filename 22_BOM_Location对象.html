@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button class = 'b1'>刷新</button>
+    <button class = 'b2'>百度</button>
+    <script>
+        // 设置 location.href = 新地址
+        // 获取 location.href 
+        // 刷新 reload
+        document.querySelector('.b1').onclick = function () {
+            location.reload()
+        }
+        document.querySelector('.b2').onclick = function () {
+            location.href = 'http://www.baidu.com'
+        }
+    </script>
+</body>
+
+</html>
